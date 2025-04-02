@@ -48,8 +48,8 @@ fi
 _py="python"
 _pkg=caca-utils
 pkgname="${_pkg}"
-pkgver="0.0.0.0.0.0.0.0.0.1"
-_commit="738e17baab012e2a4f075907ceb4e5283e035677"
+pkgver="0.0.0.0.0.0.0.0.0.1.1.1"
+_commit="57f5b339f6907488610d359bee84d94e41fc3c47"
 pkgrel=1
 _pkgdesc=(
   "Caca library utils."
@@ -112,10 +112,10 @@ fi
 _evmfs_network="100"
 _evmfs_address="0x69470b18f8b8b5f92b48f6199dcb147b4be96571"
 _evmfs_ns="0x87003Bd6C074C713783df04f36517451fF34CBEf"
-_archive_sum='95a3ed2853229aaad4c57f83898da42694a7eb3f885c8fe9d55e9a20f1a561ce'
+_archive_sum='699ce63fbc403a2a652a7a105ddf37e18c0edbc925fae614a39348031c108351'
 _evmfs_archive_uri="evmfs://${_evmfs_network}/${_evmfs_address}/${_evmfs_ns}/${_archive_sum}"
 _evmfs_archive_src="${_tarname}.zip::${_evmfs_archive_uri}"
-_archive_sig_sum="0a8622b13f17c827d286309b2ce1d5937f7b1d7b64e3e0b8d667ce800395a24b"
+_archive_sig_sum="1f1a5bced9622937d57bd6cf12125ff1ab13eea80411ddac841228bc6e85471d"
 _archive_sig_uri="evmfs://${_evmfs_network}/${_evmfs_address}/${_evmfs_ns}/${_archive_sig_sum}"
 _archive_sig_src="${_tarname}.zip.sig::${_archive_sig_uri}"
 if [[ "${_evmfs}" == "true" ]]; then
